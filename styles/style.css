@@ -20,7 +20,7 @@
     list-style-type:none;
     text-align:center;
     margin:0;
-    padding:0; 
+    padding:30px 0; 
     font-size:1em; 
     
 
@@ -72,4 +72,43 @@ li {
 .second-line {
     font-size:18px;
     padding: 20px;
+}
+
+/*About-Section*/
+
+.about-section h2 {
+    font-size: 2em;
+    margin:10px;
+    text-align: center;
+}
+.about-section p {
+    text-align:center;
+}
+
+.container-2 {
+    padding:20px;
+}
+
+/*site-footer*/
+.site-footer {
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.site-footer a {
+    color: white;
+}
+
+.site-footer a:hover {
+    color:deeppink;
+}
+
+.site-footer .text{
+    display:none;
+}
+
+.site-footer .toggle {
+    padding:20px;
 }
