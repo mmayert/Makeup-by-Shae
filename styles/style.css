@@ -18,12 +18,15 @@
 .menu-primary {
     position:fixed;
     width:250px;
-    margin-left:0;
+    margin-left:-250px;
     overflow:hidden;
     height: 100vh;
     background-color:slategrey;
     max-height:100vh;
-    transition: all 0.3s ease-in-out;}
+    transition: all 0.3s ease-in-out;
+
+    }
+    
 
 .close{
     float:right;
@@ -92,19 +95,11 @@
     float:right;
     z-index: 10000000;
     font-size: 2em;
-    opacity:0;
-}
-
-.hide-menu {
-    margin-left:-250px;
-}
-
-.opacity-one{
     opacity:1;
 }
 
 .menu-primary a:visited {
-    color:black;
+    color:white;
 }
 
 .menu-primary a:hover {
@@ -112,8 +107,16 @@
 }
 
 .menu-primary a:active {
-    background-color: black;
+    background-color: white;
 }
+/*On click classes for nav bar*/
+.opacity-zero{
+    opacity:0;
+}
+.show-menu{
+    margin-left:0px;
+}
+
 
 /*BANNER */ /*https://www.youtube.com/watch?v=-6UuPT9x6Fc*/ 
 .banner-section {
