@@ -23,12 +23,9 @@ body {
     color:dimgrey;
 }
 
-hr {
-    color:#1DB5AC;
-    size:10px;
-}
+/*Fixed menu bar at top */
 
-
+/*background*/
 .fixed-menu {
     width:100%;
     background-color:dimgrey;
@@ -39,21 +36,29 @@ hr {
     opacity:0.97;
     transition: all 0.3s ease-in;
 }
+
+/*icons*/
+.left{
+    float:left;
+}
+
 .insta-navbar a {
     opacity:1;
     color:white;
     font-size:1.5em;
     padding:10px;
 }
-
+.insta-navbar a:hover{
+    color:#FD7364
+}
 .facebook-navbar a {
     opacity:1;
     color:white;
     font-size:1.5em;
     padding:10px;
 }
-.left{
-    float:left;
+.facebook-navbar a:hover {
+  color:#FD7364;
 }
 
 .toggle-menu{
@@ -64,6 +69,13 @@ hr {
     font-size: 1.5em;
     
 }
+.toggle-menu:hover {
+    color:#FD7364;
+}
+
+/*Collapsed menu */
+
+/*background*/
 .menu-primary {
     position:fixed;
     width:250px;
@@ -75,10 +87,8 @@ hr {
     max-height:100vh;
     transition: all 0.3s ease-in-out;
     font-family: 'Open Sans', sans-serif;
-
     }
-    
-
+/*close icon*/
 .close{
     float:right;
     padding:20px;
@@ -86,7 +96,11 @@ hr {
     font-size:1.5em;
     color:white;
 }
+.close:hover {
+    color:#FD7364;
+}
 
+/*makeup by shae logo in menu bar */
 .boxed-item {
     font-weight: 200px;
     padding: 10px 10px;
@@ -100,7 +114,6 @@ hr {
     margin: 40px 10px 0 20px;
     font-family: 'Lobster Two', cursive;
 }
-
 
 .navigation-selection{
     display:block;
@@ -124,6 +137,7 @@ hr {
     transition: all 0.3s ease-in-out;
 }
 
+/*Lipstick img / font awesome icons */
 .navigation-selection img {
     padding-right:10px;
     width:18px;
@@ -138,27 +152,27 @@ hr {
 .navigation-selection .fa-mobile {
     font-size:1.4em;
 }
+
+/*Links of nav bar */
 .navigation-selection a{
     display:inline-block;
     color:white;
     text-decoration:none;
 }
-
 .menu-primary a:visited {
     color:white;
 }
-
 .menu-primary a:hover {
-    color: #1DB5AC;
+    color: #FD7364;
 }
-
 .menu-primary a:active {
     background-color: white;
 }
-/*On click classes for nav bar*/
+
+/*On click Jquery event classes for nav bar*/
 .opacity-zero{
     opacity:1;
-    margin-left:-500px;   
+    margin-left:-2000px;   
 }
 .show-menu{
     margin-left:0px;
@@ -166,7 +180,7 @@ hr {
 
 
 /*BANNER */ /*https://www.youtube.com/watch?v=-6UuPT9x6Fc*/ 
-.banner-section {
+.banner-container {
     background:
     linear-gradient(to top, 
     rgba(0, 0, 0, 0.25) 0%, 
@@ -179,9 +193,6 @@ hr {
     background-attachment:scroll;
     background-position:center center;
     color:white;
-}
-
-.container {
     clear:both;
     padding:150px 30px 100px 30px;
 }
@@ -191,22 +202,18 @@ hr {
     background:#1DB5AC;
     box-shadow:2px 2px 3px 3px black;
     border:3px groove black;
-
 }
 
 .first-line {
     font-size:2.2em;
     font-family: 'Lobster Two', cursive;
     text-shadow:2px 2px 5px black;
-   
 }
 
 hr.style-underline {
 	border-top: 3px double dimgrey;
     color:dimgrey;
 }
-
-
 .second-line {
     font-size:16px;
     padding: 8px;
@@ -223,31 +230,22 @@ hr.style-underline {
 }
 
 .about-section p {
-    text-align:center;
-    font-family: 'Open Sans', sans-serif;
     padding:20px 0;
 }
 
+/*Polaroid effect to pic of shae*/
 .polaroid-effect {
     position:relative;
     width:220px;
 }
-
 .polaroid-effect .pic-of-shae {
     border:10px solid #fff; 
     border-bottom:45px solid #fff;
-    box-shadow:3px 3px 3px #777;
+    box-shadow:3px 1px 3px 3px #777;
     width:100%;
     height:60%;
-    transform:rotate(4deg);
-
+    transform:rotate(3deg);
 }
-
-
-
-
-
-
 
 /*site-footer*/
 .site-footer {
@@ -258,12 +256,13 @@ hr.style-underline {
     padding:30px;
 }
 
+/*Link activity in footer*/
 .site-footer a {
     color: white;
 }
 
 .site-footer a:hover {
-    color:deeppink;
+    color:#1DB5AC;
 }
 
 .site-footer .text{
@@ -273,3 +272,87 @@ hr.style-underline {
 .site-footer .toggle {
     padding:20px;
 }
+.icon-pack {
+    font-size:8px;
+}
+
+
+/*CONTACT PAGE*/
+.container-3 {
+    padding:30px;
+    text-align:left;
+    padding-top:80px;
+}
+.contact-info {
+    text-align:left;
+    list-style-type:square;
+    padding:10px 0px 10px 10px;
+}
+
+.conact-info p {
+    margin-top:10px;
+}
+
+.contact-info a {
+    color:#1DB5AC;
+
+}
+
+.contact-info a:hover {
+    color:#FD7364;
+    text-decoration:none;
+}
+.contact-info a:visited {
+    color:#1DB5AC;
+    
+}
+
+/*Form*/
+
+.request-form {
+    display:inline-block;
+    text-align:left;
+    line-height:1;
+}
+
+input[type="text"], input[type="email"] {
+    background-color:mintcream;
+    padding:2px 5px;
+    font-family:'Open Sans', sans-serif;
+    font-size:1em;
+}
+
+label {
+    margin:10px 0;
+}
+input:focus {
+    border:3px solid #FD7364; 
+    outline:none;
+    color:dimgray;  
+}
+textarea {
+    background-color:mintcream;
+    padding:2px 5px;
+    font-family:'Open Sans', sans-serif;
+    font-size:1em;
+    color: dimgrey; 
+    outline:none;
+}
+textarea:focus {
+    border:3px solid #FD7364;
+    outline:none;
+}
+button {  
+    text-shadow:2px 2px 5px black;
+    background-color:#1DB5AC;
+    color:white;
+    border-radius:60px;
+    text-transform: uppercase;
+    padding:10px;
+    font-size:0.8em;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+
+
