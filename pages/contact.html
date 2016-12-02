@@ -28,7 +28,7 @@
                 <li> <a href="index.html"><i class="fa fa-home"></i>Home</a> </li>
                 <li> <a href="index.html#about"><i class="fa fa-user"></i>About</a></li>
                 <li> <a href="#"><img src="../img/lipstick-filled.png" title="Lipstick Icon" width="30" />Services</a> </li>
-                <li> <a href="#"><i class= "fa fa-camera-retro"></i>Portfolio</a> </li>
+                <li> <a href="portfolio.html"><i class= "fa fa-camera-retro"></i>Portfolio</a> </li>
                 <li> <a href="contact.html"> <i class="fa fa-mobile"></i>Contact</a> </li>
                 </ul> 
             </nav> 
@@ -56,18 +56,40 @@
     <div class="request-form">
     <form action="submit.php" method="get">
     <label> First Name: <br  /> 
-    <input type="text" name="first-name" id="first-name"size="40">
+    <input type="text" name="first-name" id="first-name"size="35">
+    <br  />
     </label>
     <label> Last Name: <br  /> 
-    <input type="text" name="last-name" id="last-name" size="40">
+    <input type="text" name="last-name" id="last-name" size="35">
    <br  /> 
    </label>
     <label> E-mail address: <br  /> 
     <input type="email" name="email" id="email" size:"40">
+    <br  />
     </label>
-    <label> Please write down any of your comments or concerns here: 
-    <br  /><textarea name="comments" cols="45" row="100"> Enter your comments ... </textarea>
-    <br  /></label>
+    <label>Phone number <br  />
+    <input type="tel" name="usr-phone-number" id="usr-phone-number"> 
+    <br  />
+    </label> 
+    <label>What service are you interested in? <br  />
+    <select>
+        <option value="default-select" name="default-select" id="default-select"> Select an option </option>
+        <option value="grad" name="grad" id="grad"> Graduation Makeup </option>
+        <option value="wedding" name="wedding" id="wedding"> Wedding Makeup </option>
+        <option value="editorial" name="editorial" id="editorial"> Editorial Makeup </option>
+        <option value="evening-makeup" name="evening-makeup" id="evening-makeup"> Evening Makeup </option>
+        <option value="makeover" name="makeover" id="makeover"> Makeover </option>
+    </select>
+    <br  />
+    </label>
+    <label> What day are you interested in? <br  />
+    <input type="date" name="date" id="date"> 
+    <br />
+    </label>
+    <label> Please write down any of your comments or concerns here: <br  />
+    <textarea name="comments" cols="35" row="80"> Enter your comments ... </textarea>
+    <br  />
+    </label>
     <button type="submit"> Submit! </button>
     <br  />
     </form>

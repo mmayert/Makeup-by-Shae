@@ -315,7 +315,7 @@ hr.style-underline {
     line-height:1;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"], input[type="email"], input[type="date"], input[type="tel"] {
     background-color:mintcream;
     padding:2px 5px;
     font-family:'Open Sans', sans-serif;
@@ -330,7 +330,7 @@ input:focus {
     outline:none;
     color:dimgray;  
 }
-textarea {
+textarea, select {
     background-color:mintcream;
     padding:2px 5px;
     font-family:'Open Sans', sans-serif;
@@ -338,10 +338,11 @@ textarea {
     color: dimgrey; 
     outline:none;
 }
-textarea:focus {
+textarea:focus, select:focus {
     border:3px solid #FD7364;
     outline:none;
 }
+
 button {  
     text-shadow:2px 2px 5px black;
     background-color:#1DB5AC;
@@ -353,6 +354,43 @@ button {
     font-family:'Open Sans', sans-serif;
 
 }
+
+
+/*PORTFOLIO*/
+
+/*Everyday-slide*/
+.everyday-slides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.everyday-slides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.everday-slides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.everyday-slides img {
+  display: block;
+  height: auto;
+  float: center;
+  width: 250px;
+  height:270px;
+  border: 0;
+  }
 
 
 
