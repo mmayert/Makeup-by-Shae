@@ -23,6 +23,12 @@ body {
     color:dimgrey;
 }
 
+img {
+    max-width:100%;
+    height:auto;
+
+}
+
 /*Fixed menu bar at top */
 
 /*background*/
@@ -360,49 +366,39 @@ button {
 
 }
 /*Portfolio-1 */
-.everyday-photos img {
+
+.everyday-photos a, .editorial-photos a, .evening-photos a{
+    float:center;
+    width:20%;
+    padding:4px;
+}
+
+.everyday-photos, .editorial-photos, .evening-photos {
+    margin:2% 14.5%;
+}
+
+.everyday-photos:hover img, .editorial-photos:hover img, .evening-photos:hover img{
+    opacity:.8;
+    transform:scale(.92);
+}
+
+.everyday-photos img, .editorial-photos img, .evening-photos img {
     width:240px;
     height:300px;
-}
-.everyday-photos {
-    float:center;
+    transition: all .2s ease-in-out;
 }
 
-/*PORTFOLIO*/
+.everyday-photos img:hover, .editorial-photos img:hover, .evening-photos img:hover {
+    transform:scale(1);
+    box-shadow:0 0 7px rgba (0, 0, 0, .5);
+    opacity:1;
+}
 
-/*Everyday-slide*/
-.everyday-slides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
 
-.everyday-slides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
+.clear-float {
+    float:clear;
+}
 
-.everday-slides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.everyday-slides img {
-  display: block;
-  height: auto;
-  float: center;
-  width: 250px;
-  height:270px;
-  border: 0;
-  }
 
 
 
