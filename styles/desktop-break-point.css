@@ -1,0 +1,91 @@
+/*Desktop*/
+@media screen and  (min-width:1140px) {
+
+.section-header {
+    font-size: 3.8em;
+    margin:20px;
+}
+.section-sub-header {
+    font-size: 3em;
+}
+
+/*Fixed menu*/
+
+.fixed-menu {
+    padding: 10px 10px 10px 10px;
+}
+.insta-navbar a {
+    font-size:1.5em;
+}
+
+.facebook-navbar a {
+    font-size:1.5em;
+}
+
+.toggle-menu{
+    font-size: 1.5em;
+}
+
+/*Collapsed Menu*/
+/*close icon*/
+.close{
+    font-size:1.5em; 
+}
+/*makeup by shae logo in menu bar */
+.navigation-selection li{
+    font-size:1.25em;
+}
+
+
+/*Banner section */
+.banner-words{
+    margin:0px 25%;
+}
+
+.banner-container{
+    padding:150px 0 100px 0 ;
+}
+
+.first-line {
+    font-size:3.8em;
+}
+
+.makeup-brush-icon {
+    width:40px;
+}
+.second-line {
+    font-size:1.5em;
+}
+
+
+/*About*/
+
+.container-2 {
+    padding:0 70px;
+    text-align:left;
+}
+
+.about-section .about-icons {
+    text-align:center;
+}
+
+.about-shae {
+    display:inline-block;
+    
+
+}
+.polaroid-effect {
+    float:left;
+    width:40%
+}
+
+.about-shae-text {
+    float:right;
+    width:60%
+}
+
+.polaroid-effect .pic-of-shae {
+    width:65%;
+    height:65%;
+    margin:0 0;
+}
