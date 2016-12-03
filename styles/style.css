@@ -31,6 +31,13 @@ img {
 
 /*Fixed menu bar at top */
 
+.site-header {
+    position:fixed;
+    z-index:20000;
+    height:auto;
+    width:100vw;
+}
+
 /*background*/
 .fixed-menu {
     width:100%;
@@ -202,6 +209,9 @@ img {
     color:white;
     clear:both;
     padding:150px 30px 100px 30px;
+    position:fixed;
+    width:100vw;
+    height:auto;
 }
 
 .banner-words {
@@ -225,6 +235,15 @@ hr.style-underline {
     font-size:16px;
     padding: 8px;
     font-family:'Open Sans', sans-serif;
+}
+
+
+.page-content {
+    top:700px;
+    position:relative;
+    width:100vw;
+    background:white;
+
 }
 
 /*About-Section*/
