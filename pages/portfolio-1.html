@@ -4,7 +4,7 @@
         <title>Portfolio - Makeup by Shae</title>
         <link rel="stylesheet" href="../styles/reset.css" />
         <link rel="stylesheet" href="../styles/style.css" />
-        <link rel="stylesheet" href="../styles/slideshow-theme.css" />-
+        <link rel="stylesheet" href="../styles/lightbox.css" />
         <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Open+Sans" rel="stylesheet"  />
         <script src="https://use.fontawesome.com/4fbf87bab3.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,8 +20,8 @@
            </div>
            <span class="toggle-menu"> <i class="fa fa-bars"></i></span>
            </header>
-
-           <!--Collapsed Nav  -->
+           
+           <!--Collapsed Nav-->  
             <nav class="menu-primary">
                 <span class="close"><i class ="fa fa-times"></i></span>
                 <a href="pages/index.html"><h1 class="boxed-item"> Makeup by Shae </h1></a>
@@ -36,20 +36,16 @@
 
 <!--Everyday Makeup-->
             <div class="container-3">
-            
             <h1 class="section-header"> Portfolio </h1>
             <div class="everyday-makeup">
                 <h2 class="section-sub-header"> Everyday Makeup </h2>
-                <ul class="everyday-slides">
-                    <li><img src="../img/everyday-1.jpg" alt="a middle aged woman with a light, classic, simple everyday makeuplook"></li>
-                    <li><img src="../img/everyday-2.jpg" alt="a girl with eyes closed wearing bright pink lipstick and a goldy rose eyeshadow"></li>
-                    <li><img src="../img/everyday-3.jpg" alt="a girl with nude colored lipstick and light eveshadow smiling"></li>
-                </ul>
+                <div class="everyday-photos">
+                <a href="../img/everyday-1.jpg" data-lightbox="gallery"><img src="../img/thumbnail-image-gallery/everyday-1.jpg" alt="a middle aged woman with a light, classic, simple everyday makeuplook"></a>
+                <a href="../img/everyday-2.jpg" data-lightbox="gallery"><img src="../img/thumbnail-image-gallery/everyday-2.jpg" alt="a girl with eyes closed wearing bright pink lipstick and a goldy rose eyeshadow"></a>
+                <a href="../img/everyday-3.jpg" data-lightbox="gallery"><img src="../img/thumbnail-image-gallery/everyday-3.jpg" alt="a girl with nude colored lipstick and light eveshadow smiling"></a>
+                </div>
             </div>
-            
             </div>
-
-
 
         <footer class="site-footer">
             <p> 
@@ -64,11 +60,6 @@
             </footer>  
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="../js/home-page.js"></script>
-        <script src="../js/slide-show-script"></script>
-        <script>
-            $(function() {
-             $(".everyday-slides").responsiveSlides();
-            });
-    </script>
+        <script src="../js/lightbox.min.js"></script>
     </body>
 </html>

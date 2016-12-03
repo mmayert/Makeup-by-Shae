@@ -1,0 +1,103 @@
+/*Tablet */
+@media screen and (min-width:600px) {
+
+
+.section-header {
+    font-size: 5em;
+    margin:20px;
+}
+.section-sub-header {
+    font-size: 4em;
+}
+
+/*fixed menu*/
+.fixed-menu {
+    padding: 20px 20px 20px 20px;
+    transition: all 0.6s ease-in;
+}
+
+.insta-navbar a {
+    font-size:2.25em;
+}
+
+.facebook-navbar a {
+    font-size:2.25em;
+}
+
+.toggle-menu{
+    font-size: 2.25em;
+}
+
+/*Collapsed menu */
+
+/*background*/
+.menu-primary {
+    transition: all 0.5s ease-in-out;
+    }
+/*close icon*/
+.close{
+    transition: all 0.5s ease-in-out;
+    font-size:2.25em; 
+}
+/*makeup by shae logo in menu bar */
+.boxed-item {
+    font-size:35px;
+    color:white;
+}
+
+.navigation-selection li{
+    font-size:1.5em;
+}
+
+.navigation-selection .fa-mobile, .fa-home, .fa-user, .fa-camera-retro{
+    margin-right:20px;
+}
+.navigation-selection img {
+    padding-right:20px;
+    width:20px;
+    height:20px;
+}
+
+/*Banner Section*/
+.banner-container {
+    padding:275px 100px 200px 100px;
+}
+
+.first-line {
+    font-size:4.6em;
+}
+
+.makeup-brush-icon {
+    width:50px;
+}
+.second-line {
+    font-size:2em;
+}
+
+/*About*/
+
+.mirror-icon {
+    width:50px
+}
+
+.about-section .fa-user{
+    color:dimgrey;
+    font-size:2em;
+}
+
+.polaroid-effect .pic-of-shae {
+    border-bottom:50px solid #fff;
+    margin:30px;
+    width:45%;
+    height:45%;
+}
+
+/*Footer*/
+.site-footer .toggle {
+    font-size:2.25em;
+    padding:30px;
+}
+.icon-pack{
+    font-size:12px;
+}
+}
