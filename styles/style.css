@@ -33,8 +33,7 @@ img {
 
 /*background*/
 .fixed-menu {
-    width:100vw;
-    height:auto;
+    width:100%;
     background-color:dimgrey;
     border-bottom:5px solid #1DB5AC;
     position:fixed;
@@ -187,7 +186,7 @@ img {
 }
 
 
-/*BANNER */  
+/*BANNER */ /*https://www.youtube.com/watch?v=-6UuPT9x6Fc*/ 
 .banner-container {
     background:
     linear-gradient(to top, 
@@ -203,9 +202,6 @@ img {
     color:white;
     clear:both;
     padding:150px 30px 100px 30px;
-    position:fixed;
-    width:100vw;
-    height:auto;
 }
 
 .banner-words {
@@ -229,12 +225,6 @@ hr.style-underline {
     font-size:16px;
     padding: 8px;
     font-family:'Open Sans', sans-serif;
-}
-
-.page-content {
-    position:relative;
-    top:500px;
-    background:white;
 }
 
 /*About-Section*/
