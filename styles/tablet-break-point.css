@@ -76,11 +76,16 @@
 
 .page-content {
     top:700px;
+}
 
 /*About*/
 
 .mirror-icon {
     width:50px
+}
+.about-section{
+    padding:0 70px;
+    text-align:justify;
 }
 
 .about-section .fa-user{
@@ -88,11 +93,29 @@
     font-size:2em;
 }
 
+.about-section .about-icons {
+    text-align:center;
+}
+
+.about-shae {
+    display:inline-block;
+    
+
+}
+.polaroid-effect {
+    float:left;
+    width:40%
+}
+
+.about-shae-text {
+    float:right;
+    width:60%
+}
+
 .polaroid-effect .pic-of-shae {
-    border-bottom:50px solid #fff;
-    margin:30px;
-    width:45%;
-    height:45%;
+    width:65%;
+    height:65%;
+    margin:0 0;
 }
 
 /*Footer*/
