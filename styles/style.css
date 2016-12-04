@@ -271,6 +271,13 @@ hr.style-underline {
     padding:20px 0;
 }
 
+.about-shae-text a{
+    color:#1DB5AC;
+}
+.about-shae-text a:hover{
+    color:#FD7364;
+}
+
 /*Polaroid effect to pic of shae*/
 
 .polaroid-effect {
@@ -280,8 +287,8 @@ hr.style-underline {
     border:10px solid #fff; 
     border-bottom:30px solid #fff;
     box-shadow:3px 1px 3px 3px #777;
-    width:60%;
-    height:60%;
+    width:50%;
+    height:auto%;
     transform:rotate(3deg);
     margin:20px 0;
 }
