@@ -91,7 +91,7 @@ img {
 /*Collapsed menu */
 
 /*background*/
-#menu-primary {
+.menu-primary {
     position:fixed;
     width:275px;
     margin-left:-300px;
@@ -177,13 +177,13 @@ img {
     color:white;
     text-decoration:none;
 }
-#menu-primary a:visited {
+.menu-primary a:visited {
     color:white;
 }
-#menu-primary a:hover {
+.menu-primary a:hover {
     color: #FD7364;
 }
-#menu-primary a:active {
+.menu-primary a:active {
     background-color: white;
 }
 
@@ -271,8 +271,6 @@ hr.style-underline {
     padding:20px 0;
 }
 
-
-
 /*Polaroid effect to pic of shae*/
 
 .polaroid-effect {
@@ -319,7 +317,6 @@ hr.style-underline {
 
 
 /*CONTACT PAGE*/
-
 /*banner */
 .banner-container-contact {
     background:
@@ -335,16 +332,24 @@ hr.style-underline {
     background-position:center center;
     color:white;
     clear:both;
-    padding:150px 30px 100px 30px;
+    padding:100px 30px 60px 30px;
     position:fixed;
     width:100vw;
     height:auto;
     box-sizing:border-box;
 
 }
+.first-line-contact{
+    font-size:1.5em;
+    font-family: 'Lobster Two', cursive;
+    text-shadow:2px 2px 5px black;
+}
 
-#contact-content {
-    top:352px;
+.page-content-contact {
+    top:255px;
+    position:relative;
+    width:100vw;
+    background:white;
 }
 
 
