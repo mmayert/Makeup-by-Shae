@@ -12,7 +12,8 @@ body {
     margin:20px;
     text-align: center;
     font-family: 'Lobster Two', cursive;
-    color:dimgrey;
+    color:grey;
+    text-shadow:2px 2px 2px dimgray;
 }
 
 .section-sub-header {
@@ -20,7 +21,8 @@ body {
     margin:10px;
     text-align:center;
     font-family:'Lobster Two', cursive;
-    color:dimgrey;
+    color:grey;
+    text-shadow:2px 2px 5px black;
 }
 
 img {
@@ -89,7 +91,7 @@ img {
 /*Collapsed menu */
 
 /*background*/
-.menu-primary {
+#menu-primary {
     position:fixed;
     width:275px;
     margin-left:-300px;
@@ -175,13 +177,13 @@ img {
     color:white;
     text-decoration:none;
 }
-.menu-primary a:visited {
+#menu-primary a:visited {
     color:white;
 }
-.menu-primary a:hover {
+#menu-primary a:hover {
     color: #FD7364;
 }
-.menu-primary a:active {
+#menu-primary a:active {
     background-color: white;
 }
 
@@ -195,7 +197,7 @@ img {
 }
 
 
-/*BANNER */ /*https://www.youtube.com/watch?v=-6UuPT9x6Fc*/ 
+/*BANNER */ 
 .banner-container {
     background:
     linear-gradient(to top, 
@@ -215,6 +217,7 @@ img {
     width:100vw;
     height:auto;
     box-sizing:border-box;
+
 }
 
 .banner-words {
@@ -252,12 +255,13 @@ hr.style-underline {
 /*About-Section*/
 .container-2 {
     padding:30px;
-    
+    border-top:5px dotted #FD7364;
 }
 
 .about-section .fa-user{
     color:dimgrey;
     font-size:1.25em;
+    
 }
 .mirror-icon {
     width:30px;
@@ -315,10 +319,40 @@ hr.style-underline {
 
 
 /*CONTACT PAGE*/
+
+/*banner */
+.banner-container-contact {
+    background:
+    linear-gradient(to top, 
+    rgba(0, 0, 0, 0.25) 0%, 
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+     url('../img/banner-images/contact-banner.jpg');
+    text-align: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center center;
+    color:white;
+    clear:both;
+    padding:150px 30px 100px 30px;
+    position:fixed;
+    width:100vw;
+    height:auto;
+    box-sizing:border-box;
+
+}
+
+#contact-content {
+    top:352px;
+}
+
+
 .container-3 {
+    border-top:5px dotted #FD7364;
     padding:30px;
     text-align:left;
-    padding-top:80px;
+    padding-top:30px;
 }
 
 
@@ -361,6 +395,7 @@ hr.style-underline {
     border-radius: 5px;
     border:1px solid dimgrey;
     box-sizing:border-box;
+    box-shadow:3px 3px 3px dimgrey;
 }
 
 .request-form h2 {
@@ -482,6 +517,82 @@ button {
     float:clear;
 }
 
+
+
+
+/*Services */
+
+.container-4 {
+    max-width:100vw;
+    padding:20px 20px;
+    padding-top:100px;
+}
+
+.container-4 .section-sub-header{
+    font-family: 'Poiret One', cursive;
+    font-size:1.5em;
+    text-shadow:none;
+}
+
+
+.services-ul a, .services-ul a:visited {
+    color:#1DB5AC;
+}
+
+.services-ul a:hover {
+    color:#FD7364;
+}
+
+.event-makeup, .grad-makeup, .bridal-makeup, .editorial-makeup {
+    border-bottom: 3px dotted #FD7364;
+    padding-bottom:20px;
+    padding-top: 10px;
+}
+
+/*Prices Table*/
+
+.prices-table-section {
+    margin-top:3%;
+}
+.prices-table {
+    width:95%;
+    margin:5px;
+}
+.table-heading {
+    background:#1DB5AC;
+    color:white;
+    font-family:'Lobster Two', cursive;
+    font-size:1.75em;
+    text-shadow: 1px 1px 1px dimgray;
+}
+
+.table-headers {
+    background:lightgray;
+    color:black;
+    font-family: 'Poiret One', cursive;
+}
+
+table, tr, td {
+     border:1px solid dimgray;
+}
+th{
+    vertical-align:middle;
+    font-weight:bold;
+    border:1px solid dimgray;
+}
+.service-names {
+    width:40%;
+}
+
+td {
+    width:30%;
+    vertical-align:middle;
+    padding:0px 10px
+}
+
+tr {
+    height:50px;
+}
 
 
 
