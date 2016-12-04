@@ -351,8 +351,8 @@ hr.style-underline {
 
 
 .request-form {
-    margin-left:0;
-    margin-right:0;
+    margin:10px;
+    margin-top:0px;
     max-width:100%;
     background: #F8F8F8;
     padding: 30px 30px 20px 30px;
