@@ -12,20 +12,20 @@
 
 /*fixed menu*/
 .fixed-menu {
-    padding: 20px 20px 20px 20px;
+    padding: 15px 15px 15px 15px;
     transition: all 0.6s ease-in;
 }
 
 .insta-navbar a {
-    font-size:2.25em;
+    font-size:2em;
 }
 
 .facebook-navbar a {
-    font-size:2.25em;
+    font-size:2em;
 }
 
 .toggle-menu{
-    font-size: 2.25em;
+    font-size: 2em;
 }
 
 /*Collapsed menu */
@@ -74,6 +74,9 @@
     font-size:2em;
 }
 
+.page-content {
+    top:700px;
+
 /*About*/
 
 .mirror-icon {
@@ -100,4 +103,23 @@
 .icon-pack{
     font-size:12px;
 }
+}
+
+
+/*Services*/
+
+.container-4 {
+    padding:60px 30px 30px 30px;
+}
+
+.prices-table, .go-to-images-event, .go-to-images-grad, .go-to-images-bridal, .go-to-images-editorial{
+    margin:10px 10px;
+}
+
+.services-description p {
+    text-align:justify;
+}
+
+.container-4 .section-sub-header{
+    font-size:2.5em;
 }

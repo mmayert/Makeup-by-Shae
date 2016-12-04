@@ -1,7 +1,7 @@
 body {
     font-size:16px;
     text-align:center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cabin', sans-serif;
     line-height:1.5;
     box-sizing: border-box;
     color:dimgrey;
@@ -12,7 +12,8 @@ body {
     margin:20px;
     text-align: center;
     font-family: 'Lobster Two', cursive;
-    color:dimgrey;
+    color:grey;
+    text-shadow:2px 2px 2px dimgray;
 }
 
 .section-sub-header {
@@ -20,7 +21,8 @@ body {
     margin:10px;
     text-align:center;
     font-family:'Lobster Two', cursive;
-    color:dimgrey;
+    color:grey;
+    text-shadow:2px 2px 5px black;
 }
 
 img {
@@ -30,6 +32,13 @@ img {
 }
 
 /*Fixed menu bar at top */
+
+.site-header {
+    position:fixed;
+    z-index:20000;
+    height:auto;
+    width:100vw;
+}
 
 /*background*/
 .fixed-menu {
@@ -85,14 +94,15 @@ img {
 .menu-primary {
     position:fixed;
     width:275px;
-    margin-left:-275px;
+    margin-left:-300px;
     overflow:hidden;
     height: 100vh;
     background-color:dimgrey;
     opacity:0.99;
     max-height:100vh;
     transition: all 0.3s ease-in-out;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    border-right:5px solid #1DB5AC;
     }
 /*close icon*/
 .close{
@@ -132,6 +142,7 @@ img {
 }
 
 .navigation-selection li {
+    font-family: 'Poiret One', cursive;
     padding:10px 0;
     margin-left:10px;
     font-weight:200px;
@@ -139,7 +150,7 @@ img {
     box-sizing: border-box;
     font-size:20px;
     color:#1DB5AC;
-    border-bottom: solid 2px #1DB5AC;
+    border-bottom: dotted 2px #1DB5AC;
     transition: all 0.3s ease-in-out;
 }
 
@@ -179,14 +190,14 @@ img {
 /*On click Jquery event classes for nav bar*/
 .opacity-zero{
     opacity:1;
-    margin-left:-2000px;   
+    margin-left:2000px;   
 }
 .show-menu{
     margin-left:0px;
 }
 
 
-/*BANNER */ /*https://www.youtube.com/watch?v=-6UuPT9x6Fc*/ 
+/*BANNER */ 
 .banner-container {
     background:
     linear-gradient(to top, 
@@ -202,6 +213,11 @@ img {
     color:white;
     clear:both;
     padding:150px 30px 100px 30px;
+    position:fixed;
+    width:100vw;
+    height:auto;
+    box-sizing:border-box;
+
 }
 
 .banner-words {
@@ -224,17 +240,28 @@ hr.style-underline {
 .second-line {
     font-size:16px;
     padding: 8px;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Poiret One', cursive;
+}
+
+
+.page-content {
+    top:475px;
+    position:relative;
+    width:100vw;
+    background:white;
+
 }
 
 /*About-Section*/
 .container-2 {
     padding:30px;
+    border-top:5px dotted #FD7364;
 }
 
 .about-section .fa-user{
     color:dimgrey;
     font-size:1.25em;
+    
 }
 .mirror-icon {
     width:30px;
@@ -290,11 +317,50 @@ hr.style-underline {
 
 
 /*CONTACT PAGE*/
+/*banner */
+.banner-container-contact {
+    background:
+    linear-gradient(to top, 
+    rgba(0, 0, 0, 0.25) 0%, 
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+     url('../img/banner-images/contact-banner.jpg');
+    text-align: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center center;
+    color:white;
+    clear:both;
+    padding:100px 30px 60px 30px;
+    position:fixed;
+    width:100vw;
+    height:auto;
+    box-sizing:border-box;
+
+}
+.first-line-contact{
+    font-size:1.5em;
+    font-family: 'Lobster Two', cursive;
+    text-shadow:2px 2px 5px black;
+}
+
+.page-content-contact {
+    top:255px;
+    position:relative;
+    width:100vw;
+    background:white;
+}
+
+
 .container-3 {
+    border-top:5px dotted #FD7364;
     padding:30px;
     text-align:left;
-    padding-top:80px;
+    padding-top:30px;
 }
+
+
 .contact-info {
     text-align:left;
     list-style-type:square;
@@ -319,53 +385,109 @@ hr.style-underline {
     
 }
 
-/*Form*/
+
+/*FORM */
+
 
 .request-form {
-    display:inline-block;
-    text-align:left;
-    line-height:1;
+    margin:10px;
+    margin-top:0px;
+    max-width:100%;
+    background: #F8F8F8;
+    padding: 30px 30px 20px 30px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 5px;
+    border:1px solid dimgrey;
+    box-sizing:border-box;
+    box-shadow:3px 3px 3px dimgrey;
 }
 
-input[type="text"], input[type="email"], input[type="date"], input[type="tel"] {
-    background-color:mintcream;
-    padding:2px 5px;
-    font-family:'Open Sans', sans-serif;
-    font-size:1em;
-}
-
-label {
-    margin:10px 0;
-}
-input:focus {
-    border:3px solid #FD7364; 
-    outline:none;
-    color:dimgray;  
-}
-textarea, select {
-    background-color:mintcream;
-    padding:2px 5px;
-    font-family:'Open Sans', sans-serif;
-    font-size:1em;
-    color: dimgrey; 
-    outline:none;
-}
-textarea:focus, select:focus {
-    border:3px solid #FD7364;
-    outline:none;
-}
-
-button {  
-    text-shadow:2px 2px 5px black;
-    background-color:#1DB5AC;
+.request-form h2 {
+    font-size:30px;
+    font-family: 'Lobster Two', cursive;
+    padding:20px 10px 20px 10px;
+    display:block;
+    margin:-30px -30px 10px -30px;
     color:white;
-    border-radius:60px;
-    text-transform: uppercase;
-    padding:10px;
-    font-size:0.8em;
-    font-family:'Open Sans', sans-serif;
+    background-color:#1DB5AC;
+    text-shadow: 1px 1px 1px dimgray;
+    border-radius:5px 5px 0px 0px;
 
 }
+.request-form h2>span {
+    display:block;
+    font-size:20px;
+    color:white;
+    font-family: 'Poiret One', cursive;
+}
+
+.request-form label {
+    display:block;
+    margin:0px 0px 5px ; 
+    text-align:left;
+    font-family: 'Cabin', sans-serif;
+}
+
+.request-form label>span {
+    float:left;
+    margin-top:10px;
+    background: #e5e5e5;
+    font-family: 'Cabin', sans-serif;
+    background:#F8F8F8;
+}
+
+.request-form input[type="text"], .request-form input[type="email"], .request-form input[type="tel"], .request-form input[type="date"], .request-form textarea, .request-form search{
+    color: #555;
+    height:30px;
+    line-height:15px;
+    width:98%;
+    padding:0px 0px 0px 10px;
+    margin-top:5px;
+    border: 1px solid dimgray;
+    background: #fbfbfb;
+    outline:0;
+    box-shadow: 1px 1px 2px rgba(238, 238, 238, 0.2);
+    font-family: 'Cabin', sans-serif;
+}
+.request-form input[type="text"]:hover, .request-form input[type="email"]:hover, .request-form input[type="tel"]:hover, .request-form input[type="date"]:hover, .request-form textarea:hover, .request-form search:hover {
+    background-color:mintcream;
+}
+
+.request-form input[type="text"]:focus, .request-form input[type="email"]:focus, .request-form input[type="tel"]:focus, .request-form input[type="date"]:focus, .request-form textarea:focus, .request-form search:focus {
+    border:2px solid #FD7364; 
+    outline:none;
+    color:dimgray; 
+    background-color:mintcream;
+}
+
+textarea {
+    height:100px;
+    padding-top:10px;
+}
+
+search {
+    height:100px;
+    padding-top:10px 10px;
+    margin:10px 10px;
+}
+
+button {
+    background-color:#1DB5AC;
+    border-radius: 5px;
+    border:none;
+    padding:10px 25px;
+    color:white;
+    text-shadow:1px 1px 1px dimgrey;
+    text-transform:uppercase;
+    font-size:0.8em
+}
+
+.request-form button:hover {
+    background-color:#FD7364;
+}
+
+
 /*Portfolio-1 */
 
 .everyday-photos a, .editorial-photos a, .evening-photos a{
@@ -400,6 +522,82 @@ button {
     float:clear;
 }
 
+
+
+
+/*Services */
+
+.container-4 {
+    max-width:100vw;
+    padding:20px 20px;
+    padding-top:100px;
+}
+
+.container-4 .section-sub-header{
+    font-family: 'Poiret One', cursive;
+    font-size:1.5em;
+    text-shadow:none;
+}
+
+
+.services-ul a, .services-ul a:visited {
+    color:#1DB5AC;
+}
+
+.services-ul a:hover {
+    color:#FD7364;
+}
+
+.event-makeup, .grad-makeup, .bridal-makeup, .editorial-makeup {
+    border-bottom: 3px dotted #FD7364;
+    padding-bottom:20px;
+    padding-top: 10px;
+}
+
+/*Prices Table*/
+
+.prices-table-section {
+    margin-top:3%;
+}
+.prices-table {
+    width:95%;
+    margin:5px;
+}
+.table-heading {
+    background:#1DB5AC;
+    color:white;
+    font-family:'Lobster Two', cursive;
+    font-size:1.75em;
+    text-shadow: 1px 1px 1px dimgray;
+}
+
+.table-headers {
+    background:lightgray;
+    color:black;
+    font-family: 'Poiret One', cursive;
+}
+
+table, tr, td {
+     border:1px solid dimgray;
+}
+th{
+    vertical-align:middle;
+    font-weight:bold;
+    border:1px solid dimgray;
+}
+.service-names {
+    width:40%;
+}
+
+td {
+    width:30%;
+    vertical-align:middle;
+    padding:0px 10px
+}
+
+tr {
+    height:50px;
+}
 
 
 

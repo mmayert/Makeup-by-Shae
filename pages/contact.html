@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="../styles/style.css" />
         <link rel="stylesheet" href="../styles/tablet-break-point.css" />
         <link rel="stylesheet" href="../styles/desktop-break-point.css" />
-        <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Open+Sans" rel="stylesheet"  />
+        <link href="https://fonts.googleapis.com/css?family=Cabin|Lobster+Two|Poiret+One" rel="stylesheet"  /> 
         <script src="https://use.fontawesome.com/4fbf87bab3.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
@@ -29,13 +29,22 @@
                 <ul class="navigation-selection">
                 <li> <a href="index.html"><i class="fa fa-home"></i>Home</a> </li>
                 <li> <a href="index.html#about"><i class="fa fa-user"></i>About</a></li>
-                <li> <a href="#"><img src="../img/Lipstick-filled.png" title="Lipstick Icon" width="30" />Services</a> </li>
+                <li> <a href="services.html"><img src="../img/Lipstick-filled.png" title="Lipstick Icon" width="30" />Services</a> </li>
                 <li> <a href="portfolio.html"><i class= "fa fa-camera-retro"></i>Portfolio</a> </li>
                 <li> <a href="contact.html"> <i class="fa fa-mobile"></i>Contact</a> </li>
                 </ul> 
             </nav> 
+
+        
+            <div class="banner-container-contact">
+                <section class="banner-words">
+                    <h1 class="first-line-contact"> Contact Me</h1>
+                </section>
+            </div>
+
+    <div class="page-content-contact">
+
     <div class="container-3">
-    <h1 class="section-header"> Contact Us </h1>
     <main class="contact-content">
     <p>
     Thank you for considering me for your makeup needs! If you have any questions regarding any of my services offered or anything regarding your personal situation, don't hesistate to ask!
@@ -55,25 +64,21 @@
     </div>
 
     <!-- FORM -->
-    <div class="request-form">
-    <form action="submit.php" method="get">
-    <label> First Name: <br  /> 
-    <input type="text" name="first-name" id="first-name"size="35">
-    <br  />
+    <form action="#" method="get" class="request-form">
+        <h2>Service Request 
+            <span> To request a makeup service, please complete this form </span>
+        </h2>
+        
+    <label><span>Your Name: </span>
+    <input type="text" name="first-name" id="first-name" placeholder="Your Full Name"  />
     </label>
-    <label> Last Name: <br  /> 
-    <input type="text" name="last-name" id="last-name" size="35">
-   <br  /> 
-   </label>
-    <label> E-mail address: <br  /> 
-    <input type="email" name="email" id="email" size:"40">
-    <br  />
+    <label><span> Your E-mail address: </span>
+    <input type="email" name="email" id="email" placeholder="Valid E-mail" />
     </label>
-    <label>Phone number <br  />
-    <input type="tel" name="usr-phone-number" id="usr-phone-number"> 
-    <br  />
+    <label><span> Your Phone number </span>
+    <input type="tel" name="usr-phone-number" id="usr-phone-number" placeholder="Your phone number with area code" /> 
     </label> 
-    <label>What service are you interested in? <br  />
+    <label> <span>What service are you interested in? </span> <br  />
     <select>
         <option value="default-select" name="default-select" id="default-select"> Select an option </option>
         <option value="grad" name="grad" id="grad"> Graduation Makeup </option>
@@ -82,26 +87,19 @@
         <option value="evening-makeup" name="evening-makeup" id="evening-makeup"> Evening Makeup </option>
         <option value="makeover" name="makeover" id="makeover"> Makeover </option>
     </select>
-    <br  />
     </label>
-    <label> What day are you interested in? <br  />
-    <input type="date" name="date" id="date"> 
-    <br />
+    <label> <span> What day are you interested in? </span>
+    <input type="date" name="date" id="date" /> 
     </label>
-    <label> Please write down any of your comments or concerns here: <br  />
-    <textarea name="comments" cols="35" row="80"> Enter your comments ... </textarea>
-    <br  />
+    <label> <span>Please write down any of your comments or concerns here: </span>
+    <textarea name="comments"> Enter your comments ... </textarea>
     </label>
-    <button type="submit"> Submit! </button>
-    <br  />
+    <button type="submit" class="complete-form-button"> Submit! </button>
     </form>
 
     </div>
 
-
-
-
-
+    </div>
 
 
     <footer class="site-footer">
