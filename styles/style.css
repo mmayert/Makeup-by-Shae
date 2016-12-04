@@ -12,8 +12,8 @@ body {
     margin:20px;
     text-align: center;
     font-family: 'Lobster Two', cursive;
-    color:grey;
-    text-shadow:2px 2px 2px dimgray;
+    color:dimgray;
+    text-shadow:2px 2px 2px grey;
 }
 
 .section-sub-header {
@@ -21,8 +21,8 @@ body {
     margin:10px;
     text-align:center;
     font-family:'Lobster Two', cursive;
-    color:grey;
-    text-shadow:2px 2px 5px black;
+    color:dimgray;
+    text-shadow:2px 2px 2px grey;
 }
 
 img {
