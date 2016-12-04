@@ -76,7 +76,7 @@
 
 .page-content {
     top:700px;
-}
+
 /*About*/
 
 .mirror-icon {
@@ -88,46 +88,11 @@
     font-size:2em;
 }
 
-/*
-.polaroid-effect img {
-    border-bottom:50px solid #fff;
-    margin:30px;
-    width:40%;
-    height:40%;
-}
-
-.pic-of-shae {
-    border-bottom:50px solid #fff;
-    margin:30px;
-    width:40%;
-    height:40%;
-}
-*/
-
-.about-section .about-icons {
-    text-align:center;
-}
-
-.about-shae {
-    display:inline-block;
-    margin-bottom:4%;
-    
-
-}
-.polaroid-effect {
-    float:left;
-    width:40%
-}
-
-.about-shae-text {
-    float:right;
-    width:60%
-}
-
 .polaroid-effect .pic-of-shae {
-    width:70%;
-    height:50%;
-    margin-top:30px;
+    border-bottom:50px solid #fff;
+    margin:30px;
+    width:45%;
+    height:45%;
 }
 
 /*Footer*/

@@ -67,17 +67,27 @@
     text-align:justify;
 }
 
-  
+.about-section .about-icons {
+    text-align:center;
+}
+
+.about-shae {
+    display:inline-block;
+    
+
+}
 .polaroid-effect {
-    width:25%
+    float:left;
+    width:40%
 }
 
 .about-shae-text {
-    width:75%
+    float:right;
+    width:60%
 }
 
 .polaroid-effect .pic-of-shae {
-    width:70%;
-    height:50%;
+    width:65%;
+    height:65%;
     margin:0 0;
 }
