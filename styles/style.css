@@ -296,6 +296,8 @@ hr.style-underline {
 }
 
 /*site-footer*/
+
+
 .site-footer {
     line-height:1.5;
     background-color: black;
@@ -655,6 +657,20 @@ button {
     padding-top: 10px;
 }
 
+.extras-underline {
+    color:#FD7364;
+    
+}
+
+.prices-table-section a {
+    color:#1DB5AC;
+    text-decoration:underline;
+}
+
+.prices-table-section a:hover {
+    color:#FD7364;
+    text-decoration:none;
+}
 /*Prices Table*/
 
 .prices-table-section {
