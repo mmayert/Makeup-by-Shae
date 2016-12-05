@@ -290,14 +290,8 @@ hr.style-underline {
     border:10px solid #fff; 
     border-bottom:30px solid #fff;
     box-shadow:3px 1px 3px 3px #777;
-<<<<<<< HEAD
     width:50%;
     height:auto;
-=======
-    width:60%;
-    height:60%;
->>>>>>> parent of 3223aa8... banners
-    transform:rotate(3deg);
     margin:20px 0;
 }
 
@@ -515,8 +509,8 @@ button {
 .banner-container-portfolio {
     background:
     linear-gradient(to top, 
-    rgba(0, 0, 0, 0.25) 0%, 
-    rgba(0, 0, 0, 0.25) 100%
+    rgba(0, 0, 0, 0.5) 0%, 
+    rgba(0, 0, 0, 0.5) 100%
     ),
      url('../img/banner-images/portfolio-banner.jpg');
     text-align: center;
@@ -586,8 +580,6 @@ button {
 .clear-float {
     float:clear;
 }
-
-
 
 
 /*Services */
