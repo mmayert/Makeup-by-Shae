@@ -103,6 +103,7 @@ img {
     transition: all 0.3s ease-in-out;
     font-family: 'Cabin', sans-serif;
     border-right:5px solid #1DB5AC;
+    z-index:1000000;
     }
 /*close icon*/
 .close{
