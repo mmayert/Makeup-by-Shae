@@ -288,7 +288,7 @@ hr.style-underline {
     border-bottom:30px solid #fff;
     box-shadow:3px 1px 3px 3px #777;
     width:50%;
-    height:auto%;
+    height:auto;
     transform:rotate(3deg);
     margin:20px 0;
 }
