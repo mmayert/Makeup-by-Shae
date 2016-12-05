@@ -157,6 +157,14 @@
 
 /*Services*/
 
+.first-line-services {
+    font-size:3em;
+}
+
+.banner-words-services {
+    margin:0 30%;
+}
+
 .container-4 {
     padding:60px 30px 30px 30px;
 }
@@ -182,4 +190,5 @@
 
 .banner-words-portfolio {
     margin:0 30%;
+}
 }

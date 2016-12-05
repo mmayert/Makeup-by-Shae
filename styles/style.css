@@ -576,10 +576,54 @@ button {
 
 /*Services */
 
+/*Banner*/
+.banner-container-services {
+    background:
+    linear-gradient(to top, 
+    rgba(0, 0, 0, 0.25) 0%, 
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+     url('../img/banner-images/services-banner.jpg');
+    text-align: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center top;
+    color:white;
+    clear:both;
+    padding:150px 30px 100px 30px;
+    position:fixed;
+    width:100vw;
+    height:auto;
+    box-sizing:border-box;
+
+}
+
+.banner-words-services{
+    margin:0 20%;
+    background:#1DB5AC;
+    box-shadow:2px 2px 3px 3px black;
+    border:3px groove black;
+}
+
+.page-content-services {
+    top:315px;
+    position:relative;
+    width:100vw;
+    background:white;
+}
+
+.first-line-services {
+    font-size:2.2em;
+    font-family: 'Lobster Two', cursive;
+    text-shadow:2px 2px 5px black;
+}
+
 .container-4 {
+    border-top:3px dotted#FD7364;
     max-width:100vw;
     padding:20px 20px;
-    padding-top:100px;
+    padding-top:20px;
 }
 
 .container-4 .section-sub-header{
