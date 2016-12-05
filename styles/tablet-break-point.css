@@ -77,7 +77,10 @@
 .page-content {
     top:700px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> gh-pages
 /*About*/
 
 .mirror-icon {
@@ -93,12 +96,35 @@
     font-size:2em;
 }
 
+<<<<<<< HEAD
+=======
+/*
+.polaroid-effect img {
+    border-bottom:50px solid #fff;
+    margin:30px;
+    width:40%;
+    height:40%;
+}
+
+.pic-of-shae {
+    border-bottom:50px solid #fff;
+    margin:30px;
+    width:40%;
+    height:40%;
+}
+*/
+
+>>>>>>> gh-pages
 .about-section .about-icons {
     text-align:center;
 }
 
 .about-shae {
     display:inline-block;
+<<<<<<< HEAD
+=======
+    margin-bottom:4%;
+>>>>>>> gh-pages
     
 
 }
@@ -113,9 +139,15 @@
 }
 
 .polaroid-effect .pic-of-shae {
+<<<<<<< HEAD
     width:65%;
     height:65%;
     margin:0 0;
+=======
+    width:70%;
+    height:50%;
+    margin-top:30px;
+>>>>>>> gh-pages
 }
 
 /*Footer*/
@@ -145,4 +177,12 @@
 
 .container-4 .section-sub-header{
     font-size:2.5em;
+}
+
+/*portfolio*/
+
+
+.banner-words-portfolio {
+    margin:5% 30% 8% 30%;
+    padding:5px;
 }

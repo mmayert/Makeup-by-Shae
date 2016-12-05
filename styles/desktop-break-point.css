@@ -59,7 +59,17 @@
 .page-content {
     top:475px;
 }
+/*portfolio */
 
+<<<<<<< HEAD
+.banner-words-portfolio {
+    margin:5% 30% 20% 30%;
+    padding:5px;
+}
+
+
+
+=======
 /*About*/
 
 .container-2 {
@@ -67,4 +77,18 @@
     text-align:justify;
 }
 
+  
+.polaroid-effect {
+    width:25%
+}
 
+.about-shae-text {
+    width:75%
+}
+
+.polaroid-effect .pic-of-shae {
+    width:70%;
+    height:50%;
+    margin:0 0;
+}
+>>>>>>> gh-pages

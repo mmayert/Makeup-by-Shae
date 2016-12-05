@@ -12,8 +12,8 @@ body {
     margin:20px;
     text-align: center;
     font-family: 'Lobster Two', cursive;
-    color:grey;
-    text-shadow:2px 2px 2px dimgray;
+    color:dimgray;
+    text-shadow:2px 2px 2px grey;
 }
 
 .section-sub-header {
@@ -21,8 +21,8 @@ body {
     margin:10px;
     text-align:center;
     font-family:'Lobster Two', cursive;
-    color:grey;
-    text-shadow:2px 2px 5px black;
+    color:dimgray;
+    text-shadow:2px 2px 2px grey;
 }
 
 img {
@@ -35,7 +35,7 @@ img {
 
 .site-header {
     position:fixed;
-    z-index:20000;
+    z-index:100000;
     height:auto;
     width:100vw;
 }
@@ -46,8 +46,8 @@ img {
     background-color:dimgrey;
     border-bottom:5px solid #1DB5AC;
     position:fixed;
+    z-index:100000000000000;
     padding: 10px 10px 10px 10px;
-    z-index: 10000000;
     opacity:0.97;
     transition: all 0.3s ease-in;
 }
@@ -103,6 +103,7 @@ img {
     transition: all 0.3s ease-in-out;
     font-family: 'Cabin', sans-serif;
     border-right:5px solid #1DB5AC;
+    z-index:100000000;
     }
 /*close icon*/
 .close{
@@ -217,7 +218,6 @@ img {
     width:100vw;
     height:auto;
     box-sizing:border-box;
-
 }
 
 .banner-words {
@@ -271,6 +271,13 @@ hr.style-underline {
     padding:20px 0;
 }
 
+.about-shae-text a{
+    color:#1DB5AC;
+}
+.about-shae-text a:hover{
+    color:#FD7364;
+}
+
 /*Polaroid effect to pic of shae*/
 
 .polaroid-effect {
@@ -280,8 +287,8 @@ hr.style-underline {
     border:10px solid #fff; 
     border-bottom:30px solid #fff;
     box-shadow:3px 1px 3px 3px #777;
-    width:60%;
-    height:60%;
+    width:50%;
+    height:auto%;
     transform:rotate(3deg);
     margin:20px 0;
 }
@@ -340,7 +347,7 @@ hr.style-underline {
 
 }
 .first-line-contact{
-    font-size:1.5em;
+    font-size:2.5em;
     font-family: 'Lobster Two', cursive;
     text-shadow:2px 2px 5px black;
 }
@@ -351,6 +358,8 @@ hr.style-underline {
     width:100vw;
     background:white;
 }
+
+
 
 
 .container-3 {
@@ -490,6 +499,50 @@ button {
 
 /*Portfolio-1 */
 
+.banner-container-portfolio {
+    background:
+    linear-gradient(to top, 
+    rgba(0, 0, 0, 0.25) 0%, 
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+     url('../img/banner-images/portfolio-banner.jpg');
+    text-align: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position: center top;
+    color:white;
+    clear:both;
+    padding:100px 30px 60px 30px;
+    position:fixed;
+    width:100vw;
+    height:auto;
+    box-sizing:border-box;
+
+}
+.first-line-portfolio{
+    font-size:2.5em;
+    font-family: 'Lobster Two', cursive;
+    text-shadow:2px 2px 5px black;
+}
+
+.page-content-portfolio {
+    top:243px;
+    position:relative;
+    width:100vw;
+    background:white;
+    border-top:3px dotted #FD7364;
+}
+
+.banner-words-portfolio {
+    padding:5px;
+    background:#1DB5AC;
+    box-shadow:2px 2px 3px 3px black;
+    border:3px groove black;
+}
+
+/*Images*/
+
 .everyday-photos a, .editorial-photos a, .evening-photos a{
     float:center;
     width:20%;
@@ -533,9 +586,45 @@ button {
     padding-top:100px;
 }
 
+.banner-container-services {
+    background:
+    linear-gradient(to top, 
+    rgba(0, 0, 0, 0.6) 0%, 
+    rgba(0, 0, 0, 0.6) 100%
+    ),
+     url('../img/banner-images/services-banner.jpg');
+    text-align: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center center;
+    color:white;
+    clear:both;
+    padding:100px 30px 60px 30px;
+    position:fixed;
+    width:100vw;
+    height:auto;
+    box-sizing:border-box;
+
+}
+.first-line-services{
+    font-size:2.5em;
+    font-family: 'Lobster Two', cursive;
+    text-shadow:2px 2px 5px black;
+}
+
+.page-content-services {
+    top:255px;
+    position:relative;
+    width:100vw;
+    background:white;
+    border-top:3px dotted #FD7364;
+}
+
+
 .container-4 .section-sub-header{
     font-family: 'Poiret One', cursive;
-    font-size:1.5em;
+    font-size:1.25em;
     text-shadow:none;
 }
 
