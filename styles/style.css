@@ -272,6 +272,15 @@ hr.style-underline {
     padding:20px 0;
 }
 
+.about-shae a {
+    color: #1DB5AC;
+    text-decoration:underline;
+}
+
+.about-shae a:hover {
+    color: #FD7364;
+    text-decoration:none;
+}
 /*Polaroid effect to pic of shae*/
 
 .polaroid-effect {
@@ -338,26 +347,33 @@ hr.style-underline {
     background-position:center center;
     color:white;
     clear:both;
-    padding:100px 30px 60px 30px;
+    padding:150px 30px 100px 30px;
     position:fixed;
     width:100vw;
     height:auto;
     box-sizing:border-box;
 
 }
-.first-line-contact{
-    font-size:1.5em;
-    font-family: 'Lobster Two', cursive;
-    text-shadow:2px 2px 5px black;
+
+.banner-words-contact{
+    margin:0 20%;
+    background:#1DB5AC;
+    box-shadow:2px 2px 3px 3px black;
+    border:3px groove black;
 }
 
 .page-content-contact {
-    top:255px;
+    top:315px;
     position:relative;
     width:100vw;
     background:white;
 }
 
+.first-line-contact {
+    font-size:2.2em;
+    font-family: 'Lobster Two', cursive;
+    text-shadow:2px 2px 5px black;
+}
 
 .container-3 {
     border-top:5px dotted #FD7364;
