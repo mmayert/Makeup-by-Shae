@@ -61,7 +61,11 @@
 }
 /*portfolio */
 
-<<<<<<< HEAD
+.banner-words-portfolio {
+    margin:5% 30% 20% 30%;
+    padding:5px;
+}
+
 /*About*/
 
 .container-2 {
@@ -78,17 +82,20 @@
     width:75%
 }
 
+
 .polaroid-effect .pic-of-shae {
     width:70%;
     height:50%;
     margin:0 0;
 }
-=======
 .banner-words-portfolio {
     margin:5% 30% 20% 30%;
     padding:5px;
 }
 
 
-
->>>>>>> master
+.polaroid-effect .pic-of-shae {
+    width:70%;
+    height:50%;
+    margin:0 0;
+}
