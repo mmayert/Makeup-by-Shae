@@ -12,8 +12,8 @@ body {
     margin:20px;
     text-align: center;
     font-family: 'Lobster Two', cursive;
-    color:grey;
-    text-shadow:2px 2px 2px dimgray;
+    color:dimgray;
+    text-shadow:2px 2px 2px gray;
 }
 
 .section-sub-header {
@@ -21,8 +21,8 @@ body {
     margin:10px;
     text-align:center;
     font-family:'Lobster Two', cursive;
-    color:grey;
-    text-shadow:2px 2px 5px black;
+    color:dimgray;
+    text-shadow:2px 2px 5px gray;
 }
 
 img {
@@ -495,6 +495,49 @@ button {
 
 
 /*Portfolio-1 */
+
+.banner-container-portfolio {
+    background:
+    linear-gradient(to top, 
+    rgba(0, 0, 0, 0.25) 0%, 
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+     url('../img/banner-images/portfolio-banner.jpg');
+    text-align: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center top;
+    color:white;
+    clear:both;
+    padding:150px 30px 100px 30px;
+    position:fixed;
+    width:100vw;
+    height:auto;
+    box-sizing:border-box;
+
+}
+
+.banner-words-portfolio{
+    margin:0 20%;
+    background:#1DB5AC;
+    box-shadow:2px 2px 3px 3px black;
+    border:3px groove black;
+}
+
+.page-content-portfolio {
+    top:315px;
+    position:relative;
+    width:100vw;
+    background:white;
+}
+
+.first-line-portfolio {
+    font-size:2.2em;
+    font-family: 'Lobster Two', cursive;
+    text-shadow:2px 2px 5px black;
+}
+
 
 .everyday-photos a, .editorial-photos a, .evening-photos a{
     float:center;
