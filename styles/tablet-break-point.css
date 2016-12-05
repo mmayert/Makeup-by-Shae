@@ -93,6 +93,7 @@
     font-size:2em;
 }
 
+<<<<<<< HEAD
 
 /*
 .polaroid-effect img {
@@ -110,14 +111,19 @@
 }
 */
 
+=======
+>>>>>>> parent of 3223aa8... banners
 .about-section .about-icons {
     text-align:center;
 }
 
 .about-shae {
     display:inline-block;
+<<<<<<< HEAD
     margin-bottom:4%;
 
+=======
+>>>>>>> parent of 3223aa8... banners
     
 
 }
@@ -135,10 +141,13 @@
     width:65%;
     height:65%;
     margin:0 0;
+<<<<<<< HEAD
     width:70%;
     height:50%;
     margin-top:30px;
 
+=======
+>>>>>>> parent of 3223aa8... banners
 }
 
 /*Footer*/
@@ -168,12 +177,4 @@
 
 .container-4 .section-sub-header{
     font-size:2.5em;
-}
-
-/*portfolio*/
-
-
-.banner-words-portfolio {
-    margin:5% 30% 8% 30%;
-    padding:5px;
 }
