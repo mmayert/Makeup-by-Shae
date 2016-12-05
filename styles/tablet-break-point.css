@@ -146,3 +146,11 @@
 .container-4 .section-sub-header{
     font-size:2.5em;
 }
+
+/*portfolio*/
+
+
+.banner-words-portfolio {
+    margin:5% 30% 8% 30%;
+    padding:5px;
+}
