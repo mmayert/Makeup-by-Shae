@@ -47,7 +47,7 @@ img {
     border-bottom:5px solid #1DB5AC;
     position:fixed;
     padding: 10px 10px 10px 10px;
-    z-index: 10000000;
+    z-index: 10000;
     opacity:0.97;
     transition: all 0.3s ease-in;
 }
@@ -116,12 +116,12 @@ img {
 .fadded-background{
     width:100%;
     height:100%;
-    background: rgba(0, 0, 0, 0.8);;
+    background: rgb(0, 0, 0);
     margin-left:-1500px;
     position:fixed;
     z-index:100000;
-    transition: all 0.3 fade-in;
-
+    opacity:0;
+    
 }
 
 /*close icon*/
@@ -208,10 +208,11 @@ img {
 }
 
 /*On click Jquery event classes for nav bar*/
-.opacity-zero{
-    opacity:1;
-    margin-left:2000px;   
+.opacity-background{
+    opacity:0.8;
+    transition: opacity 0.3s ease-in-out;
 }
+
 .show-menu{
     margin-left:0px;
 }
@@ -414,7 +415,7 @@ hr.style-underline {
 
 }
 
-.contact-info a:hover {
+.contact-info a:hover, .contact-info a:visited:hover {
     color:#FD7364;
     text-decoration:none;
 }
