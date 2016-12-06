@@ -47,14 +47,20 @@ img {
     border-bottom:5px solid #1DB5AC;
     position:fixed;
     padding: 10px 10px 10px 10px;
-    z-index: 10000000;
+    z-index: 10000;
     opacity:0.97;
     transition: all 0.3s ease-in;
 }
 
 /*icons Fixed Menu*/
-.left{
+.right{
+    float:right;
+    padding-right:30px;
+}
+
+.left {
     float:left;
+    padding-left:30px;
 }
 
 .insta-navbar a {
@@ -88,7 +94,7 @@ img {
     color:#FD7364;
 }
 
-/*Collapsed menu */
+
 
 /*background*/
 .menu-primary {
@@ -105,6 +111,19 @@ img {
     border-right:5px solid #1DB5AC;
     z-index:1000000;
     }
+
+/*Fadded background div accompanying the menu */
+.fadded-background{
+    width:100%;
+    height:100%;
+    background: rgb(0, 0, 0);
+    margin-left:-1500px;
+    position:fixed;
+    z-index:100000;
+    opacity:0;
+    
+}
+
 /*close icon*/
 .close{
     float:right;
@@ -189,10 +208,11 @@ img {
 }
 
 /*On click Jquery event classes for nav bar*/
-.opacity-zero{
-    opacity:1;
-    margin-left:2000px;   
+.opacity-background{
+    opacity:0.8;
+    transition: opacity 0.3s ease-in-out;
 }
+
 .show-menu{
     margin-left:0px;
 }
@@ -272,6 +292,7 @@ hr.style-underline {
     padding:20px 0;
 }
 
+
 .about-shae a {
     color: #1DB5AC;
     text-decoration:underline;
@@ -296,6 +317,8 @@ hr.style-underline {
 }
 
 /*site-footer*/
+
+
 .site-footer {
     line-height:1.5;
     background-color: black;
@@ -392,7 +415,7 @@ hr.style-underline {
 
 }
 
-.contact-info a:hover {
+.contact-info a:hover, .contact-info a:visited:hover {
     color:#FD7364;
     text-decoration:none;
 }
@@ -400,6 +423,7 @@ hr.style-underline {
     color:#1DB5AC;
     
 }
+
 
 
 /*FORM */
@@ -655,6 +679,20 @@ button {
     padding-top: 10px;
 }
 
+.extras-underline {
+    color:#FD7364;
+    
+}
+
+.prices-table-section a {
+    color:#1DB5AC;
+    text-decoration:underline;
+}
+
+.prices-table-section a:hover {
+    color:#FD7364;
+    text-decoration:none;
+}
 /*Prices Table*/
 
 .prices-table-section {

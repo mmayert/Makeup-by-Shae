@@ -1,15 +1,28 @@
+/*Menu Animation*/
+
+function openMenu(){
+    $(".menu-primary").addClass("show-menu");
+    $(".fadded-background").addClass("show-menu");
+    $(".fadded-background").addClass("opacity-background");
+}
+
+function closeMenu(){
+    $(".menu-primary").removeClass("show-menu");
+    $(".fadded-background").removeClass("show-menu");
+    $(".fadded-background").removeClass("opacity-background");
+}
+
+
 $(document).ready(function() {
-        $(".toggle-menu").click(function(){
-        $(".menu-primary").addClass("show-menu");
-        $(".fixed-menu").addClass("opacity-zero");
-    });
-    
-    $(".close").click(function(){
-        $(".menu-primary").removeClass("show-menu");
-        $(".fixed-menu").removeClass("opacity-zero");
-    });
+        $(".toggle-menu").click(openMenu);
+        $(".close").click(closeMenu);
+        $(".fadded-background").click(closeMenu);
 });
 
+
+
+
+/*Buttons*/
 $(".prices-table-button").click (function(){
     window.location.href = '#prices-table';    
     });
