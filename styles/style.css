@@ -53,8 +53,14 @@ img {
 }
 
 /*icons Fixed Menu*/
-.left{
+.right{
+    float:right;
+    padding-right:30px;
+}
+
+.left {
     float:left;
+    padding-left:30px;
 }
 
 .insta-navbar a {
@@ -88,7 +94,7 @@ img {
     color:#FD7364;
 }
 
-/*Collapsed menu */
+
 
 /*background*/
 .menu-primary {
@@ -105,6 +111,8 @@ img {
     border-right:5px solid #1DB5AC;
     z-index:1000000;
     }
+
+
 /*close icon*/
 .close{
     float:right;
@@ -272,6 +280,7 @@ hr.style-underline {
     padding:20px 0;
 }
 
+
 .about-shae a {
     color: #1DB5AC;
     text-decoration:underline;
@@ -402,6 +411,7 @@ hr.style-underline {
     color:#1DB5AC;
     
 }
+
 
 
 /*FORM */

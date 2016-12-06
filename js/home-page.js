@@ -1,3 +1,4 @@
+/*Menu Animation*/
 $(document).ready(function() {
         $(".toggle-menu").click(function(){
         $(".menu-primary").addClass("show-menu");
@@ -10,6 +11,8 @@ $(document).ready(function() {
     });
 });
 
+
+/*Buttons*/
 $(".prices-table-button").click (function(){
     window.location.href = '#prices-table';    
     });
