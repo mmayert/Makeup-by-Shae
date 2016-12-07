@@ -3,14 +3,17 @@
 function openMenu(){
     $(".menu-primary").addClass("show-menu");
     $(".fadded-background").addClass("show-menu");
-    $(".fadded-background").addClass("opacity-background");
+    $(".fadded-background").addClass("show") .addClass("opacity-background");
 }
 
 function closeMenu(){
     $(".menu-primary").removeClass("show-menu");
     $(".fadded-background").removeClass("show-menu");
-    $(".fadded-background").removeClass("opacity-background");
-}
+    setTimeout(function(){
+        $(".fadded-background") .removeClass("show")
+    }, 300);
+    }
+
 
 
 $(document).ready(function() {
@@ -28,18 +31,18 @@ $(".prices-table-button").click (function(){
     });
 
 $(".go-to-images-event").click (function(){
-    window.location.href = 'portfolio.html';    
+    window.location.href = 'portfolio.html#event-photos';    
     });
 
 $(".go-to-images-grad").click (function(){
-    window.location.href= 'portfolio.html';
+    window.location.href= 'portfolio.html#grad-photos';
     });
 $(".go-to-images-bridal").click (function(){
-    window.location.href= 'portfolio.html';
+    window.location.href= 'portfolio.html#wedding-photos';
     });
 
 $(".go-to-images-editorial").click (function(){
-    window.location.href= 'portfolio.html';
+    window.location.href= 'portfolio.html#editorial-photos';
     });
 
 $(".complete-form-button").click (function() {
