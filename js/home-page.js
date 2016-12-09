@@ -54,7 +54,18 @@ $(".complete-form-button").click (function() {
 
 
 
+function fancyScroll(evt) {
+    evt.preventDefault();
+    var desiredBuffer = 50;
+    var link = $(this).attr('href').replace('#', '');
+    var linkElement = $('a[name="' + link + '"]')[0];
+    var posFromTop = $(linkElement).offset().top;
+    var desiredPosition = posFromTop - desiredBuffer;
 
+    $(window).scrollTop(desiredPosition);
+}
+
+$('.services-ul a[href*="#"]').on('click', fancyScroll)
 
 
 

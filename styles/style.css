@@ -35,7 +35,7 @@ img {
 
 .site-header {
     position:fixed;
-    z-index:20000;
+    z-index: 500;
     height:auto;
     width:100vw;
 }
@@ -47,7 +47,7 @@ img {
     border-bottom:5px solid #1DB5AC;
     position:fixed;
     padding: 10px 10px 10px 10px;
-    z-index: 10000;
+    z-index: 100;
     opacity:0.97;
     transition: all 0.3s ease-in;
 }
@@ -109,7 +109,7 @@ img {
     transition: all 0.3s ease-in-out;
     font-family: 'Cabin', sans-serif;
     border-right:5px solid #1DB5AC;
-    z-index:1000000;
+    z-index: 600;
     }
 
 /*Fadded background div accompanying the menu */
@@ -120,13 +120,16 @@ img {
     top:0;
     left:0;
     position:fixed;
-    z-index:100000;
-    visibility:hidden;
     
+    /*visibility:hidden;*/
+    opacity:0;
+    transition: opacity 0.3s ease-in-out;
     
 }
 .show {
-    visibility:visible;
+    opacity:1;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 500;
 }
 
 /*close icon*/
@@ -212,11 +215,11 @@ img {
     background-color: white;
 }
 
-/*On click Jquery event classes for nav bar*/
+/*On click Jquery event classes for nav bar*//*
 .opacity-background{
     opacity:0.8;
     transition: opacity 0.3s ease-in-out;
-}
+}*/
 
 .show-menu{
     margin-left:0px;
@@ -606,8 +609,9 @@ button {
 }
 
 
-.clear-float {
-    float:clear;
+.clear-float:after {
+    clear:both;
+    display:block;
 }
 
 
