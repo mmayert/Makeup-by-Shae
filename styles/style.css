@@ -335,6 +335,7 @@ hr.style-underline {
 /*site-footer*/
 
 
+
 .site-footer {
     line-height:1.5;
     background-color: black;
@@ -623,6 +624,14 @@ button {
 
 
 /*Services */
+
+.button-bigger{
+    font-size:1em;
+}
+
+.prices-table-button, .go-to-images-event, .go-to-images-grad, .go-to-images-bridal, .go-to-images-editorial{
+    transition: all 0.2s ease-in;
+}
 
 /*Banner*/
 .banner-container-services {

@@ -14,15 +14,31 @@ function closeMenu(){
     }, 300);
     }
 
+function buttonHover(){
+    $(this).addClass("button-bigger");
+}
+
+function buttonHoverLeave(){
+    $(this).removeClass("button-bigger");
+}
+
 
 
 $(document).ready(function() {
         $(".toggle-menu").click(openMenu);
         $(".close").click(closeMenu);
         $(".fadded-background").click(closeMenu);
+        $(".prices-table-button, .go-to-images-event, .go-to-images-grad, .go-to-images-bridal, .go-to-images-editorial").mouseover(buttonHover);
+        $(".prices-table-button, .go-to-images-event, .go-to-images-grad, .go-to-images-bridal, .go-to-images-editorial").mouseleave(buttonHoverLeave);
+        
+
 });
 
+
+
+
 //Click with buffer 
+
 
 
 function fancyScroll(evt) {
@@ -70,4 +86,6 @@ $(".complete-form-button").click (function() {
     window.location.href= 'contact.html';
 
 });
+
+
 
