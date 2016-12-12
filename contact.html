@@ -30,7 +30,7 @@
 
                 <nav class="menu-primary">
                 <span class="close"><i class ="fa fa-times"></i></span>
-                <a href="pages/index.html"><span class="boxed-item"> Makeup by Shae </span></a>
+                <span class="boxed-item"> Makeup by Shae </span>
                 <ul class="navigation-selection">
                 <li> <a href="index.html"><i class="fa fa-home"></i>Home</a> </li>
                 <li> <a href="index.html#about"><i class="fa fa-user"></i>About</a></li>
@@ -68,19 +68,19 @@
     </div>
 
     <!-- FORM -->
-    <form action="#" method="get" class="request-form">
+    <form action="#" method="get" class="request-form" name="request-form">
         <h2>Service Request 
             <span> To request a makeup service, please complete this form </span>
         </h2>
         
     <label><span>Your Name: </span>
-    <input type="text" name="first-name" id="first-name" placeholder="Your Full Name"  />
+    <input type="text" name="name" id="name" placeholder="Your Full Name"  />
     </label>
     <label><span> Your E-mail address: </span>
     <input type="email" name="email" id="email" placeholder="Valid E-mail" />
     </label>
     <label><span> Your Phone number </span>
-    <input type="tel" name="usr-phone-number" id="usr-phone-number" placeholder="Your phone number with area code" /> 
+    <input type="tel" name="usrPhoneNumber" id="usrPhoneNumber" placeholder="Your phone number with area code" /> 
     </label> 
     <label> <span>What service are you interested in? </span> <br  />
     <select>
@@ -115,5 +115,6 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="js/home-page.js"></script>
+        <script src="js/form-validation.js"
     </body>
 </html>
