@@ -12,7 +12,7 @@
 
 /*fixed menu*/
 .fixed-menu {
-    padding: 15px 15px 15px 15px;
+    padding: 10px;
     transition: all 0.6s ease-in;
 }
 
@@ -64,7 +64,10 @@
 }
 
 .first-line {
-    font-size:4.6em;
+    font-size:3.2em;
+}
+.first-line img {
+    width:29px;
 }
 
 .makeup-brush-icon {
