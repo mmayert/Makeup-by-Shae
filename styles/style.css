@@ -1,3 +1,25 @@
+@font-face { 
+    font-family: Lobster Two;
+    src: url('../fonts/Lobster_Two/LobsterTwo-Regular.ttf');
+    font-weight:normal; 
+}
+@font-face { 
+    font-family: Cabin;
+    src: url('../fonts/Cabin/Cabin-Regular.ttf');
+    font-weight:normal;
+}
+
+@font-face { 
+    font-family: Oswald;
+    src: url('../fonts/Oswald/Oswald-Regular.ttf');
+    font-weight:normal;
+}
+
+@font-face { 
+    font-family: OswaldLight;
+    src: url('../fonts/Oswald/Oswald-Light.ttf');
+}
+
 body {
     font-size:16px;
     text-align:center;
@@ -49,6 +71,7 @@ img {
     padding: 10px 10px 10px 10px;
     z-index: 100;
     opacity:0.97;
+    -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
 }
 
@@ -106,6 +129,7 @@ img {
     background-color:dimgrey;
     opacity:0.99;
     max-height:100vh;
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     font-family: 'Cabin', sans-serif;
     border-right:5px solid #1DB5AC;
@@ -123,11 +147,13 @@ img {
     
     /*visibility:hidden;*/
     opacity:0;
+    -webkit-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
     
 }
 .show {
     opacity:1;
+    -webkit-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
     z-index: 500;
 }
@@ -136,6 +162,7 @@ img {
 .close{
     float:right;
     padding:20px;
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     font-size:1.5em;
     color:white;
@@ -170,15 +197,16 @@ img {
 }
 
 .navigation-selection li {
-    font-family: 'Poiret One', cursive;
+    font-family: 'OswaldLight', sans-serif;
+    text-shadow:2px 2px 2px black;
     padding:10px 0;
     margin-left:10px;
-    font-weight:bold;
     color:white;
     box-sizing: border-box;
     font-size:20px;
     color:#1DB5AC;
     border-bottom: dotted 2px #1DB5AC;
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -229,6 +257,12 @@ img {
 /*BANNER */ 
 .banner-container {
     background:
+    -webkit-linear-gradient(bottom, 
+    rgba(0, 0, 0, 0.25) 0%, 
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+     url('../img/make-up.jpg');
+    background:
     linear-gradient(to top, 
     rgba(0, 0, 0, 0.25) 0%, 
     rgba(0, 0, 0, 0.25) 100%
@@ -251,12 +285,7 @@ img {
 
 .banner-words {
     padding:25px;
-    /*background:#1DB5AC;*/
-   /* background-image:
-    linear-gradient(
-      to top right, 
-      teal, #1Db5Ac
-    );*/
+      background: -webkit-linear-gradient(#1DB5AC, #1da4be);
       background: linear-gradient(#1DB5AC, #1da4be);
       box-shadow:2px 2px 3px 3px black;
       border:3px groove black;
@@ -265,9 +294,13 @@ img {
 }
 
 .first-line {
-    font-size:2.2em;
+    font-size:1.8em;
     font-family: 'Lobster Two', cursive;
     text-shadow:2px 2px 5px black;
+}
+
+.first-line img {
+    width:20px;
 }
 
 hr.style-underline {
@@ -277,12 +310,13 @@ hr.style-underline {
 .second-line {
     font-size:16px;
     padding: 8px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-shadow:2px 2px 5px black;
 }
 
 
 .page-content {
-    top:475px;
+    top:438px;
     position:relative;
     width:100vw;
     background:white;
@@ -308,8 +342,15 @@ hr.style-underline {
     padding:20px 0;
 }
 
+iframe {
+    width:100%;
+    height:200px;
+    max-width:100%;
+    text-align:center;
+    border:1px solid grey;
+}
 
-.about-shae a {
+.about-section a {
     color: #1DB5AC;
     text-decoration:underline;
 }
@@ -317,6 +358,12 @@ hr.style-underline {
 .about-shae a:hover {
     color: #FD7364;
     text-decoration:none;
+}
+.about-shae a:hover:visited {
+
+   color: #FD7364;
+    text-decoration:none;
+    
 }
 /*Polaroid effect to pic of shae*/
 
@@ -342,6 +389,7 @@ hr.style-underline {
     color:white;
     text-align:center;
     padding:30px;
+    margin-top:20px;
 }
 
 /*Link activity in footer*/
@@ -369,6 +417,12 @@ hr.style-underline {
 /*banner */
 .banner-container-contact {
     background:
+    -webkit-linear-gradient(bottom, 
+    rgba(0, 0, 0, 0.25) 0%, 
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+     url('../img/banner-images/contact-banner.jpg');
+    background:
     linear-gradient(to top, 
     rgba(0, 0, 0, 0.25) 0%, 
     rgba(0, 0, 0, 0.25) 100%
@@ -389,12 +443,7 @@ hr.style-underline {
 
 }
 
-.banner-words-contact{
-    margin:0 20%;
-    background:#1DB5AC;
-    box-shadow:2px 2px 3px 3px black;
-    border:3px groove black;
-}
+
 
 .page-content-contact {
     top:315px;
@@ -452,7 +501,8 @@ hr.style-underline {
     max-width:100%;
     background: #F8F8F8;
     padding: 30px 30px 20px 30px;
-    font: 12px Arial, Helvetica, sans-serif;
+    font: 12px;
+    font-family: 'Cabin', sans-serif;
     color: #666;
     border-radius: 5px;
     border:1px solid dimgrey;
@@ -476,7 +526,7 @@ hr.style-underline {
     display:block;
     font-size:20px;
     color:white;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 
 .request-form label {
@@ -550,6 +600,12 @@ button {
 
 .banner-container-portfolio {
     background:
+    -webkit-linear-gradient(bottom, 
+    rgba(0, 0, 0, 0.5) 0%, 
+    rgba(0, 0, 0, 0.5) 100%
+    ),
+     url('../img/banner-images/portfolio-banner.jpg');
+    background:
     linear-gradient(to top, 
     rgba(0, 0, 0, 0.5) 0%, 
     rgba(0, 0, 0, 0.5) 100%
@@ -570,12 +626,7 @@ button {
 
 }
 
-.banner-words-portfolio{
-    margin:0 20%;
-    background:#1DB5AC;
-    box-shadow:2px 2px 3px 3px black;
-    border:3px groove black;
-}
+
 
 .page-content-portfolio {
     top:315px;
@@ -589,7 +640,9 @@ button {
     font-family: 'Lobster Two', cursive;
     text-shadow:2px 2px 5px black;
 }
-
+.everyday-photos {
+    text-align:center;
+}
 
 .everyday-photos a, .editorial-photos a, .evening-photos a, .grad-photos a, .wedding-photos a{
     width:20%;
@@ -602,17 +655,20 @@ button {
 
 .everyday-photos:hover img, .editorial-photos:hover img, .evening-photos:hover img, .grad-photos:hover img, .wedding-photos:hover img{
     opacity:.8;
-    transform:scale(.92);
+    -webkit-transform:scale(.92);
+            transform:scale(.92);
 }
 
 .everyday-photos img, .editorial-photos img, .evening-photos img, .grad-photos img, .wedding-photos img {
     width:240px;
     height:300px;
+    -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
 
 .everyday-photos img:hover, .editorial-photos img:hover, .evening-photos img:hover, .grad-photos img:hover, .wedding-photos img:hover {
-    transform:scale(1);
+    -webkit-transform:scale(1);
+            transform:scale(1);
     box-shadow:0 0 7px
     rgba(0, 0, 0, 0.5);
     opacity:1;
@@ -630,11 +686,18 @@ button {
 }
 
 .prices-table-button, .go-to-images-event, .go-to-images-grad, .go-to-images-bridal, .go-to-images-editorial{
+    -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
 
 /*Banner*/
 .banner-container-services {
+    background:
+    -webkit-linear-gradient(bottom, 
+    rgba(0, 0, 0, 0.25) 0%, 
+    rgba(0, 0, 0, 0.25) 100%
+    ),
+     url('../img/banner-images/services-banner.jpg');
     background:
     linear-gradient(to top, 
     rgba(0, 0, 0, 0.25) 0%, 
@@ -656,12 +719,7 @@ button {
 
 }
 
-.banner-words-services{
-    margin:0 20%;
-    background:#1DB5AC;
-    box-shadow:2px 2px 3px 3px black;
-    border:3px groove black;
-}
+
 
 .page-content-services {
     top:315px;
@@ -684,9 +742,18 @@ button {
 }
 
 .container-4 .section-sub-header{
-    font-family: 'Poiret One', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size:1.5em;
     text-shadow:none;
+}
+
+.services-ul {
+    font-family: 'Oswald', sans-serif;
+    font-size:1.25em;
+}
+
+.services-ul li {
+    margin:10px 10px;
 }
 
 
@@ -738,7 +805,7 @@ button {
 .table-headers {
     background:lightgray;
     color:black;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 
 table, tr, td {
@@ -762,6 +829,5 @@ td {
 tr {
     height:50px;
 }
-
 
 
